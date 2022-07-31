@@ -448,9 +448,19 @@ header .navbar ul li a:hover{
 .top{
     position: fixed;
     bottom:7.5rem; right: 2rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #1a1a1a;
     z-index: 100;
     display: none;
 }
+
+.top:hover{
+    background-color: var(--font-col);
+    transform: scale(1.1);
+}
+
 
 
 

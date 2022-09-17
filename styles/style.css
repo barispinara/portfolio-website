@@ -18,7 +18,7 @@
 }
 
 *::selection{
-    background:var(--font-sec-color);
+    background:var(--font-sec-col);
     color:#333;
 }
 
@@ -438,13 +438,13 @@ header .navbar ul li a:hover{
     color:#eee;
     padding:1rem 0;
     font-weight: normal;
+    font-style: italic;
 }
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
     color:var(--font-sec-col);
 }
-
 .top{
     position: fixed;
     bottom:7.5rem; right: 2rem;

@@ -173,6 +173,10 @@ header .navbar ul li a:hover{
     color:var(--font-sec-col);
 }
 
+.home p span{
+    color:var(--font-sec-col);
+}
+
 .home .social-icons{
     margin-top: 2rem;
     display: relative;

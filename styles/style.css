@@ -416,7 +416,7 @@ header .navbar ul li a:hover {
 .about .row .counter .slider-track {
   display: flex;
   gap: 2rem;
-  animation: slide 35s linear infinite;
+  animation: slide 50s linear infinite;
   width: max-content;
 }
 
@@ -1326,6 +1326,10 @@ header .navbar ul li a:hover {
 .project-modal .modal-body .project-setup h3,
 .project-modal .modal-body .project-testing h3 {
   margin-top: 2.5rem;
+}
+
+.project-modal .modal-body .project-challenges p {
+  text-transform: none;
 }
 
 .contact .row {
